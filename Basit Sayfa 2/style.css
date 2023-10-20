@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+}
+
+.container{
+    width: 800px;
+    height: 900px;
+    border: 3px inset black;
+    border-radius: 30px;
+    margin: auto;
+    background-color: #dbdddf;
+}
+
+.buton{
+    display: flex;  
+    height: 100px;
+}
+
+.buton button{
+    margin: auto;
+    width: 80px;
+    height: 50px;
+    align-items: center;
+    border: 2px inset rgb(19, 66, 85);
+    border-radius: 15px;
+    background-color: #c1c1c1;
+    color: white;
+}
+
+.buton button:hover{
+    color:mediumspringgreen;
+    background-color:white;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.icon{
+    display: flex;
+    height: 100px;
+    margin-top: 70px;
+}
+
+.icon img{
+    width: 50px;
+    height: 60px;
+    margin: auto;
+    border: 2px inset rgb(19, 66, 85);
+    border-radius: 50%;
+}
+
+.icon img:hover{
+    box-shadow: 0px 3px 3px 0px rgb(19, 66, 85) ;
+}
+
+.foto-card{
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin-top: 220px;
+}
+
+.foto-card img{
+    border: 1px inset rgb(19, 66, 85);
+    border-radius: 7px;
+    
+}
+
+.responsive-yazi{
+    
+ display: flex;
+margin: auto;
+ width: 530px;
+ height: 290px;
+}
+
+.responsive-yazi p{
+    text-align: center;
+    margin-top: 30px;
+    font-family:cursive;
+}
